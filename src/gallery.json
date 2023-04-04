@@ -1,4 +1,5 @@
-[
+{
+    "gallery":[
     {
         "label":"React",
         "imageurl":"../src/assests/logo.svg"
@@ -12,3 +13,4 @@
         "imageurl":"../src/assests/logo.svg"
     }
 ]
+}

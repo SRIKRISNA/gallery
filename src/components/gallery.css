@@ -1,0 +1,51 @@
+
+.galleryItems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.item{
+    margin: 20px;
+    position: relative;
+}
+.item .img img{
+    border-radius: 15px;
+}
+.img{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.delete{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    /* transform: translate(-50%, -50%); */
+}
+.label{
+    bottom: 15px;
+    left: 15px;
+    position: absolute;
+    opacity: 0;
+    color: white;
+}
+.delete button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 12px;
+}
+.item:hover img{
+    opacity: 0.8;
+}
+.item:hover .delete{
+    opacity: 1;
+}
+.item:hover .label{
+    opacity: 1;
+}

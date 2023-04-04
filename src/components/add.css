@@ -1,0 +1,24 @@
+.addimage-modal{
+    padding: 25px;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* height: 100vh; */
+    /* max-width: fit-content; */
+    background-color: rgb(235, 235, 235);
+    text-align: initial;
+}
+.addimage-modal *{
+    margin: 5px 0px;
+}
+#submitform{
+    background-color: rgb(107, 170, 107);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+input{
+    padding: 7px;
+}

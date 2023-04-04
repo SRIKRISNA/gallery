@@ -1,0 +1,68 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 80px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h3,p{
+    padding: 0;
+    margin: 0;
+}
+.logo .icon{
+    margin-right: 12px;
+}
+
+/* search box */
+.search input{
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    border-color: rgb(219, 219, 219);
+}
+button{
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.addPhoto button{
+    background-color: rgb(107, 170, 107);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.addimage-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.363);
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 10;
+}
+.form{
+    width: fit-content;
+    height: fit-content;
+    border-radius: 12px;
+    background-color: aliceblue;
+    margin: auto;
+    position: relative;
+    padding: 25px;
+}
+.close{
+    position: absolute;
+    padding: 0;
+    border: none;
+    color: red;
+    right: 15px;
+    margin-top: -12px;
+}
+.cancel{
+    color: transparent;
+    border: none;
+    color: black;
+    margin-right: 15px;
+}
