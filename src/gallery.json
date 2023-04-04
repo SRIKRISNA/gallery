@@ -1,0 +1,14 @@
+[
+    {
+        "label":"React",
+        "imageurl":"../src/assests/logo.svg"
+    },
+    {
+        "label":"Node",
+        "imageurl":"../src/assests/logo.svg"
+    },
+    {
+        "label":"Mongo",
+        "imageurl":"../src/assests/logo.svg"
+    }
+]
